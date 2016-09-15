@@ -15,8 +15,9 @@ public class Appello_16_02_2016_es1 {
 	}
 	
 	public static boolean verifica (int [][]m){
-		if (matriceinterna(m) <= occorrenzanumeripriminellacornice(ritornacornice(m)))
+		if (matriceinterna(m) <= occorrenzanumeripriminellacornice(m)){
 			return true;
+		}
 		return false;
 	
 	}
@@ -34,10 +35,11 @@ public class Appello_16_02_2016_es1 {
 	}
 	
 	
-	public static int occorrenzanumeripriminellacornice(int []v){
+	public static int occorrenzanumeripriminellacornice(int[][]M){
 		int k=0;
-		for (int i=0; i<v.length;i++){
-			if (primi (v[i]))
+		int [] vettore = ritornacornice(M);
+		for (int i=0; i<vettore.length;i++){
+			if (primi (vettore[i]))
 				k++;
 		}
 		return k;

@@ -1,5 +1,7 @@
 package EserciziAppelli;
 
+import java.util.Scanner;
+
 public class Appello_14_07_2016_es1 {
 
 	public static void main(String[] args) {
@@ -73,7 +75,7 @@ public class Appello_14_07_2016_es1 {
 
 	public static int[] Cornice(int[][] M) {
 		int h = 0;
-		int[] v = new int[M.length * M[0].length];
+		int[] v = new int[(M.length * 2 + M[0].length * 2) - 4];
 		for (int i = 0; i < M.length; i++) {
 			v[h] = M[0][i];
 			h++;
@@ -82,16 +84,16 @@ public class Appello_14_07_2016_es1 {
 			v[h] = M[i][M[0].length - 1];
 			h++;
 		}
-		for (int i = 0; i < M.length - 1; i++) {
-			v[h] = M[M.length - 1][i];
-			h++;
-		}
-		for (int i = 1; i < M.length - 1; i++) {
+		for (int i = 1; i < M.length; i++) {
 			v[h] = M[i][0];
 			h++;
 		}
+		for (int i = 1; i < M[0].length - 1; i++) {
+			v[h] = M[M.length - 1][i];
+			h++;
+		}
+
 		for (int i = 0; i < v.length; i++) {
-			System.out.print(v[i] + " ");
 		}
 		return v;
 	}
