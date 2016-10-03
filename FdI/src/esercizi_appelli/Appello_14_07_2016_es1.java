@@ -1,7 +1,5 @@
 package esercizi_appelli;
 
-import java.util.Scanner;
-
 public class Appello_14_07_2016_es1 {
 
 	public static void main(String[] args) {
