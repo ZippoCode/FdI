@@ -1,6 +1,6 @@
 package esercizi_appelli;
 
-public class Appello_05_09_2014_es3 {
+public class Appello_20140905 {
 
 	public static void main(String[] args) {
 		int [][]M= {{0,0,3,0,6},{0,0,0,5,0},{3,0,0,0,9},{0,3,0,0,0},{4,0,2,0,0}};

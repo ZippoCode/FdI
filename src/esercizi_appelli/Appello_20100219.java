@@ -1,6 +1,6 @@
 package esercizi_appelli;
 
-public class Appello_19_02_2010_es3 {
+public class Appello_20100219 {
 
 	public static void main(String[] args) {
 		char[][] R = { { 'N', 'O', 'B', 'N', 'N', 'A', 'N', 'N' }, { 'N', 'O', 'N', 'A', 'N', 'N', 'B', 'N' },

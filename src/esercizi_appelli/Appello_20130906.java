@@ -1,6 +1,6 @@
 package esercizi_appelli;
 
-public class Appello_06_09_2013_es3 {
+public class Appello_20130906 {
 
 	public static void main(String[] args) {
 		double[][] M = { { -1, 1, 0.5, 0.3, 1, 1 }, { 1, -1, 0.5, 0.3, -1, -1 }, { 1, 1, 1, 1, 1, 1 },

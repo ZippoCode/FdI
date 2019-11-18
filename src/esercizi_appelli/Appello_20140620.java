@@ -2,19 +2,19 @@ package esercizi_appelli;
 
 /*Si consideri	una	matrice	M di interi	avente	dimensioni	n x	n. Due elementi	di	tale matrice sono detti	accorpabili se	si	
 trovano	in	una	delle	seguenti	condizioni:
-• hanno	 lo	 stesso	 valore,sono adiacenti e si	 trovano sulla stessa riga	(in	 tal	 caso	 sono	 detti	 accorpabili	
-orizzontalmente) - cioè	due	elementi	adiacenti	 sulla	 stessa	 riga	 M[i][j]	 e	 M[i][j+1]	sono accorpabili	
+ï¿½ hanno	 lo	 stesso	 valore,sono adiacenti e si	 trovano sulla stessa riga	(in	 tal	 caso	 sono	 detti	 accorpabili	
+orizzontalmente) - cioï¿½	due	elementi	adiacenti	 sulla	 stessa	 riga	 M[i][j]	 e	 M[i][j+1]	sono accorpabili	
 orizzontalmente	se	M[i][j]	=	M[i][j+1];
-• hanno	 lo	 stesso	 valore,sono adiacenti	e si trovano sulla stessa colonna (accorpabili verticalmente) - cioè due	
+ï¿½ hanno	 lo	 stesso	 valore,sono adiacenti	e si trovano sulla stessa colonna (accorpabili verticalmente) - cioï¿½ due	
 elementi	adiacenti	sulla	stessa	colonna	M[i][j]	e	M[i+1][j]	sono	accorpabili	verticalmente	se	M[i][j]	=	M[i+1][j].
-Il	guadagno associato	a	due	elementi accorpabili è definito	come somma dei	loro valori - cioè	il	doppio	del	valore	di	
+Il	guadagno associato	a	due	elementi accorpabili ï¿½ definito	come somma dei	loro valori - cioï¿½	il	doppio	del	valore	di	
 ognuno	dei	due	elementi in	quanto,	essendo	accorpabili,	hanno	uguali	valori.
 Si	 scriva	 un	metodo	mossaPreferita che	 riceve	la	matrice	M e	 restituisce true se e solo	 se	la	 somma	 dei	guadagni	
-associati	a	tutte	le	coppie	di	elementi accorpabili orizzontalmente è maggiore	della	somma dei	guadagni associati	a	
+associati	a	tutte	le	coppie	di	elementi accorpabili orizzontalmente ï¿½ maggiore	della	somma dei	guadagni associati	a	
 tutte	le	coppie	di	elementi	accorpabili	verticalmente.
  * 
  */
-public class Appello_20_06_2014_es2 {
+public class Appello_20140620 {
 
 	public static void main(String[] args) {
 		int[][] m = { {3,8,8,4}, { 2, 3, 5, 0 }, { 2, 5, 5, 2 }, { 3, 2, 4, 3 } };

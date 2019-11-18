@@ -1,14 +1,14 @@
 package esercizi_appelli;
 /*Si scriva un metodo Java verifica che riceve un vettore di interi V e restituisce un boolean.
- * In particolare restituisce true se la differenza fra ciascuna coppia di elementi consecutivi del vettore è un numero 
+ * In particolare restituisce true se la differenza fra ciascuna coppia di elementi consecutivi del vettore ï¿½ un numero 
  * primo positivo e false altrimenti. Ad esempio, se V={4, 15, 22, 35} il metodo restituisce true 
- * (poiché 15-4=11 è un numero primo; 22-15=7 è un numero primo; 35-22 =13 è un numero primo); 
- * mentre se V={4, 15, 22, 28} il metodo restituisce false (poiché 15-4=11 è un numero primo; 22-15=7 è un numero primo; 
- * ma 28-22 =6 non è un numero primo).
+ * (poichï¿½ 15-4=11 ï¿½ un numero primo; 22-15=7 ï¿½ un numero primo; 35-22 =13 ï¿½ un numero primo); 
+ * mentre se V={4, 15, 22, 28} il metodo restituisce false (poichï¿½ 15-4=11 ï¿½ un numero primo; 22-15=7 ï¿½ un numero primo; 
+ * ma 28-22 =6 non ï¿½ un numero primo).
 */
 
 import java.util.Scanner;
-public class Appello_10_03_2011_es2 {
+public class Appello_20110310 {
 	public static void main(String[] args) {
 	Scanner sc= new Scanner(System.in);
 		System.out.println("inserire la dimensione di a");

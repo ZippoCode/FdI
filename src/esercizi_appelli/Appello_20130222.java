@@ -1,6 +1,6 @@
 package esercizi_appelli;
 
-public class Appello_22_02_2013_es3 {
+public class Appello_20130222 {
 
 	public static void main(String[] args) {
 		int[][] mG = { { 8, 7, 5, 6 }, { 5, 4, 5, 6 }, { 8, 9, 8, 9 }, { 5, 5, 4, 2 }, { 9, 9, 9, 2 } };

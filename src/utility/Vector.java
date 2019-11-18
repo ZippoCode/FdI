@@ -31,6 +31,10 @@ public class Vector {
 		System.out.println(']');
 	}
 
+	public int[] getVector() {
+		return vector;
+	}
+
 	public int getMaxElement() {
 		int max = vector[0];
 		for (int i = 0; i < vector.length; i++) {

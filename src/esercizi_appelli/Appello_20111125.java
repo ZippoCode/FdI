@@ -1,11 +1,11 @@
 package esercizi_appelli;
 /*Si scriva un metodo verifica che riceve in ingresso due vettori di caratteri V1 e V2 ed un intero k>0 e restituisce true se il
-suffisso di V1 è uguale al prefisso di V2, cioè se esiste una sequenza X di k caratteri tale che X costituisce la parte finale di
+suffisso di V1 ï¿½ uguale al prefisso di V2, cioï¿½ se esiste una sequenza X di k caratteri tale che X costituisce la parte finale di
 V1 e la parte iniziale di V2.
-Ad esempio, se V1= [ ‘a’,’c’,’a’,’c’,’i’,’a’], V2= ['c','i','a','o'] e k=3, il risultato sarà true.
+Ad esempio, se V1= [ ï¿½aï¿½,ï¿½cï¿½,ï¿½aï¿½,ï¿½cï¿½,ï¿½iï¿½,ï¿½aï¿½], V2= ['c','i','a','o'] e k=3, il risultato sarï¿½ true.
  * 
  */
-public class Appello_25_11_2011_es2 {
+public class Appello_20111125 {
 
 	public static void main(String[] args) {
 		char [] v1 = {'a','c','a','c','i','o'};

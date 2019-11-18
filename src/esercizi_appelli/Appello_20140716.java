@@ -2,7 +2,7 @@ package esercizi_appelli;
 
 import utility.InOut;
 
-public class Appello_16_07_2014_es3 {
+public class Appello_20140716 {
 
 	public static void main(String[] args) {
 		int[][] P = { 

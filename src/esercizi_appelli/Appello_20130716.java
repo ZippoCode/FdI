@@ -1,6 +1,6 @@
 package esercizi_appelli;
 
-public class Appello_16_07_2013_es2 {
+public class Appello_20130716 {
 
 	public static void main(String[] args) {
 		char [] s1 = {'l','o','c','a','n','d','i','e','r','e'};

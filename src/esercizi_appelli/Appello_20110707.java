@@ -1,6 +1,6 @@
 package esercizi_appelli;
 
-public class Appello_07_07_2011_es2 {
+public class Appello_20110707 {
 
 	public static void main(String[] args) {
 		int[] v1 = { 1, 2, 3, 4 };
